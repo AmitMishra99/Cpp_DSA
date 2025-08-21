@@ -1,0 +1,6 @@
+
+        # Problems :
+        -------------
+ 1. Chocalte Disturbution problem on GFG
+ 2. Repeat and Missing Number in array on Interview bit 
+ 3. Second max elem in one Pass

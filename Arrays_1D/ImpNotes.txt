@@ -1,0 +1,10 @@
+
+
+  -->       Arrays 1D :
+            ---------------    
+      - Checkmark ( Concept of Bool Flags )
+      - INT_MAX , INT_MIN
+      - Two Pointer Approach ( i and j ) 
+      - Three Pointer Approach ( i , j and k ) : j act as a superior 
+
+      

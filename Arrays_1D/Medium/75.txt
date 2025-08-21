@@ -1,0 +1,40 @@
+
+                                    Leetcode 75 :- Sort Colors
+                                 ------------------------------------
+    // 01 - Brute Approach - using Passes 
+    -------------------------------------------
+    int noz = 0;
+    int noo = 0;
+    int notw = 0
+    for(int i=0;i<n;i++){
+        if(arr[i]==0) noz++;
+        else if (arr[i]==1) noo++;
+        else notw++;
+    }
+   // filling the elements  
+     for(int i=0;i<n-1;i++){
+        if(i<noz) arr[i] = 0;
+        else if(i<(noz+noo)) arr[i] = 1;
+        else arr[i] = 2;
+    }
+
+    // 02 - Optimizied Approach - Three ptr
+    -------------------------------------------
+        int low = 0; 
+        int mid = 0; 
+        int high = nums.size() - 1;
+
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                swap(nums[low], nums[mid]);
+                low++;
+                mid++;
+            } 
+            else if (nums[mid] == 1) {
+                mid++;
+            } 
+            else { // nums[mid] == 2
+                swap(nums[mid], nums[high]);
+                high--;
+            }
+        }

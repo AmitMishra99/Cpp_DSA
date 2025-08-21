@@ -1,0 +1,19 @@
+  >>>>>>>>>>>>>>>>>>>>>              DSA by Shradha Ma'am :              <<<<<<<<<<<<<<<<<<<<<<<
+  https://docs.google.com/spreadsheets/u/0/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/htmlview?pli=1
+
+
+------------------------------------------------------------------------------------------------------
+ 1. Two-Sum ( LEETCODE - 1 )                                                                     
+ 2. Contains Duplicate ( LEETCODE - 217 )                                                  --> DONE
+ 3. Merge two Sorted Arrays ( LEETCODE - 88 )                                          
+ 4. Best Time to Buy and Sell Stock ( LEETCODE - 88 )                                --> DONE
+------------------------------------------------------------------------------------------------------
+ 5. Find Minimum in Rotated Sorted Array ( LEETCODE - 153 )                  --> DONE
+ 6. Rotate Array ( LEETCODE - 189 )                                                           
+ 7. Search in Rotated Sorted Array ( LEETCODE - 33 )                                 --> DONE
+ 8. Sort colors ( LEETCODE - 75 )                                                                 
+ 9. Next Permutation ( LEETCODE - 31 )                                                      
+ 10. Kth largest elem in Array ( LEETCODE - 215 )                                       --> DONE
+ 11. Product of Array except Self ( LEETCODE - 238 )                                  --> DONE
+------------------------------------------------------------------------------------------------------
+ 12. Trapping Rain Water ( LEETCODE - 42 )                                                                

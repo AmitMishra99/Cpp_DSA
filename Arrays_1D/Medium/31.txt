@@ -1,0 +1,80 @@
+
+                                    Leetcode 31 :- Next Permutation
+                             -------------------------------------------------
+
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main(){
+    
+    vector<int>v = {4,3,2,1};
+    int n = v.size();
+
+    // Step -1 : Find first Pivot index from 2nd last .
+    int idx = -1;
+    for(int i = n-2;i>=0;i-- ){
+        if(v[i]<v[i+1]) {
+            idx = i;
+            break;
+        }
+    }
+    // Step - 2 : Reverse Idx+1 to end 
+    reverse(v.begin()+idx+1,v.end());
+
+    // step -3 : just greater elem than idx ;
+    for(int i=idx+1;i<n;i++){
+        if(v[i]>v[idx]){
+            swap(v[i] , v[idx]);
+            break;
+        }
+    }
+
+    for(int i=0;i<n;i++){
+        cout<<v[i]<<" ";
+    }
+
+
+    // Method 2 -  Optimizied Approach 
+
+int main() {
+    vector<int> v = {4, 3, 2, 1};
+    int n = v.size();
+
+    // Step 1: Find the first pivot index from second last element
+    int idx = -1;
+    for (int i = n - 2; i >= 0; i--) {
+        if (v[i] < v[i + 1]) {
+            idx = i;
+            break;
+        }
+    }
+
+    if (idx != -1) {
+        // Step 2: Reverse from idx+1 to end
+        reverse(v.begin() + idx + 1, v.end());
+
+        // Step 3: Find just greater element than v[idx] and swap
+        for (int i = idx + 1; i < n; i++) {
+            if (v[i] > v[idx]) {
+                swap(v[i], v[idx]);
+                break;
+            }
+        }
+    } else {
+        // If already last permutation, return the first one (sorted)
+        reverse(v.begin(), v.end());
+    }
+
+    // Output the result
+    for (int i = 0; i < n; i++) {
+        cout << v[i] << " ";
+    }
+
+    return 0;
+}
+
+
+
+}
+

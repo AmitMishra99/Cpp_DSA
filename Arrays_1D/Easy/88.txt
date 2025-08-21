@@ -1,0 +1,42 @@
+
+                                    Leetcode 88 :- Merge Two Sorted Array
+                                 -----------------------------------------------
+
+                01 - Brute Approach 
+    -------------------------------------------
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+
+        vector<int>x1 = {1,4,5,2,6,89,20};
+        vector<int>x2 = {-3,-2,-1,100};
+        vector<int>x3(x1.size()+x2.size() , 0);
+
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while(i<x1.size() && j<x2.size()){
+                if(x1[i]>x2[j]) {
+                        x3[k++] = x2[j++];
+                }
+                else {
+                        x3[k++] = x1[i++];                
+                }
+        if(i<x1.size()){
+                while (i<x1.size())
+                {
+                        x3[k++] = x1[i++];
+                }
+        }
+        if(j<x2.size()){
+                while (j<x2.size())
+                {
+                        x3[k++] = x2[j++];
+                }
+        }
+
+
+
+    
