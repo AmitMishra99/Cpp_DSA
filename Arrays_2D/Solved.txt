@@ -1,0 +1,14 @@
+  >>>>>>>>>>>>>>>>>>>>>              DSA by Shradha Ma'am :              <<<<<<<<<<<<<<<<<<<<<<<
+  https://docs.google.com/spreadsheets/u/0/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/htmlview?pli=1
+
+
+------------------------------------------------------------------------------------------------------
+ 1. Transpose Matrix ( LEETCODE - 867 )                       
+ 2. Pascal's Triangle - I ( LEETCODE - 118 )                      
+ 3. Pascal's Triangle - II ( LEETCODE - 119 )                  
+------------------------------------------------------------------------------------------------------
+ 4. Rotate Image ( LEETCODE - 48 )                                         
+ 5. Spiral Marix ( LEETCODE - 54 )    
+ 6. Seach a 2D Matrix ll ( LEETCODE - 240 )            
+ 7. Score After flipping Matrix ( LEETCODE - 861 )
+------------------------------------------------------------------------------------------------------

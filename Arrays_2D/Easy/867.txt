@@ -1,0 +1,28 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+        int m = 3;
+        int n = 2;
+        vector<vector<int>>m1(m , vector<int>(n));
+        
+        // Solution :
+
+        int p = m1.size();
+        int q = m1[0].size();
+
+        vector<vector<int>>trp(p , vector<int>(q));
+
+        for(int i =0;i<q;i++){
+                for(int j=0;j<p;j++){
+                        trp[i][j] = m1[j][i];
+                }
+        }
+
+        return trp ;   // as the function is main therefor cant return the value;
+
+
+       
+
+
+}

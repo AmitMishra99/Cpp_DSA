@@ -1,0 +1,28 @@
+
+        # Arrays - 2D :
+        ---------------
+
+   - if you know your row and columns for 2D vectors so your initialisizng is given :
+        Syntax :  vector<vector<int>v( m , vector<int>(n));
+
+   - In 2d Arrays while passing the array to function we have to mention the row and columns 
+        Ex :  int functions( int arr[m][n] ); // it is imp mandatroy to mention the row as well as columns 
+               - This is one of the limitation of 2d arrays 
+               - Therefore , we mostly used the 2d vectors in leetcode 
+
+   - for computing the rows and colums for a 2D vectors
+        int m = matrix.size();               ||   for Calculating the no.of rows
+        int n = matrix[0].size();            ||   for Calculating the no.of columns
+
+   - One Special Question - Rotate Image [ 90 ]
+        Step - 1 : fisrt make it transpose 
+        Step - 2 : next step is reverse the columns
+
+   - if you are creating vectos of vectors try to store-one ur stored 1Dvectore declare it after the ur ith rowth { ith }
+   Ex : vector<vector<int>>v1;
+        Now we have to create the 1d Vector so we can do it in the our looping condition
+        Example in case of pascals triangle Question 
+
+   
+
+        
