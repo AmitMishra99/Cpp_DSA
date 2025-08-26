@@ -1,0 +1,61 @@
+
+        # Some of the built in Functions :
+     -----------------------------------------
+
+     1. string.reverse() - {   str.begin() , str.end()   }
+     2. string.length()
+     3. string.size()
+     4. string.push_back()
+     5. string.pop_back()
+
+     6. " + " Operator 
+   ----------------------
+     Ex :  string s = "abc";
+            string t = "def";
+            s+=t;
+            cout<<s;   // Output - abcdef
+            s+="xyz";
+
+     7. string.subStr() - 
+   ----------------------
+    Ex :  string s = "abcdef";
+            s.substr(1)    //  bcdef
+            s.substr(2)    //  cdef
+            s.substr(3)    //  def
+            s.substr(3, 2)    //  de
+            s.substr(1, 4)    //  bcde
+
+     8. string.to_integer() - 
+   --------------------------
+     Ex :  string s = "20000";
+                int t = to_integer(s);   // t = 20000
+                string str = to_string(s);   // t = "20000"
+
+     9. stringStream() Class - 
+   ----------------------------
+     Ex :  string str = "Raghav garg is DSA Sir ";
+            stringstream ss(str);
+            string temp ; 
+
+            while(ss>>temp){
+              cout<<temp<<endl;
+            }
+    Output : Raghav 
+                  garg
+                  is
+                  DSA
+                  Sir
+
+       10. Stoi vs Stoll
+   ----------------------------
+   Ex .  string x1 = "1234233";
+          int x = stoi(x1);
+
+   Ex .  string x2 = "1234253232323233";
+          long long y = stoll(x1);
+
+
+             
+
+
+            
