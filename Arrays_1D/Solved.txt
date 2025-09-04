@@ -4,17 +4,17 @@
 
 ------------------------------------------------------------------------------------------------------
  1. Two-Sum ( LEETCODE - 1 )                                                                     
- 2. Contains Duplicate ( LEETCODE - 217 )                                                  --> DONE
+ 2. Contains Duplicate ( LEETCODE - 217 )                                                 
  3. Merge two Sorted Arrays ( LEETCODE - 88 )                                          
- 4. Best Time to Buy and Sell Stock ( LEETCODE - 88 )                                --> DONE
+ 4. Best Time to Buy and Sell Stock ( LEETCODE - 88 )                               
 ------------------------------------------------------------------------------------------------------
- 5. Find Minimum in Rotated Sorted Array ( LEETCODE - 153 )                  --> DONE
+ 5. Find Minimum in Rotated Sorted Array ( LEETCODE - 153 )                 
  6. Rotate Array ( LEETCODE - 189 )                                                           
- 7. Search in Rotated Sorted Array ( LEETCODE - 33 )                                 --> DONE
+ 7. Search in Rotated Sorted Array ( LEETCODE - 33 )                                 
  8. Sort colors ( LEETCODE - 75 )                                                                 
  9. Next Permutation ( LEETCODE - 31 )                                                      
- 10. Kth largest elem in Array ( LEETCODE - 215 )                                       --> DONE
- 11. Product of Array except Self ( LEETCODE - 238 )                                  --> DONE
+ 10. Kth largest elem in Array ( LEETCODE - 215 )                                      
+ 11. Product of Array except Self ( LEETCODE - 238 )                                 
  12. Three-Sum ( Leetcode - 15 )
 ------------------------------------------------------------------------------------------------------
  12. Trapping Rain Water ( LEETCODE - 42 )                                                                

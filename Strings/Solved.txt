@@ -4,14 +4,6 @@
 
 ------------------------------------------------------------------------------------------------------
  1. Valid anagram ( LEETCODE - 242 )
- 2. longest Common Prefix ( LEETCODE - 14 )
- 3. Isomorphic Strings ( LEETCODE - 205 ) 
-
+ 2. Valid palindrome ( LEETCODE - 125 )
+ 3. longest Common Prefix ( LEETCODE - 205 )
 ------------------------------------------------------------------------------------------------------
- 1. 
-------------------------------------------------------------------------------------------------------
- 1.                                                             
-
- // We have completed it but stilll one Isomorphic Strings Qs is left i think that i can do more efficient way using the map
-
- 
