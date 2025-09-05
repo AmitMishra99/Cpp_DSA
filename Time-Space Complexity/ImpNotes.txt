@@ -1,0 +1,7 @@
+Notations for different types of Time Complexity :
+------------------------------------------------------
+
+--> 1. Big ( Oh ) Notation 
+        - This is especailly used to compute the time complexity of the code in term 'n' variable 
+        Ex : O(n) , O(n2) , O(log n ) , O(n3) etc..
+               O(1) - Time complexity takes only one operation or one space of runtime 
