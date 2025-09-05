@@ -1,22 +1,20 @@
 
-          C++ DSA 
-        ==========
-
-        Topics of DSA : 
-      ____________________
+         
+         C++ DSA 
+      ---------------
 
 
         Level - 1 :                                                     Completed 
      --------------                                                 ----------------
      - Arrays - 1D                                                         ✔️
      - Arrays - 2D                                                         ✔️
-     - Strings                                                                
-     - Time & Space Complexity                                  
+     - Strings                                                                ✔️                              
+     - Time & Space Complexity                                  ✔️                         
 
         Level - 2 :                                                      
      --------------                                                 ----------------
-     - Searching                                                           
      - Sorting                                                               
+     - Searching                                                           
      - Recursion                                                           
      - Advance Sorting                 
 
